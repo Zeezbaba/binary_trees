@@ -57,4 +57,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 /*HELPER FUNCS*/
 int tree_height(const binary_tree_t *tree);
 
+/*ADVANCE TASK FUNC*/
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+
 #endif
